@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
+import App from "./components/App";
 
-const App = () => {
-  return <h1>YEET MAN</h1>;
-};
+
 
 ReactDOM.render(
   <Router>
